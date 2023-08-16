@@ -140,8 +140,8 @@ check_sys
 echo "Cloning the repo..."
 if command -v git &>/dev/null; then
   git clone https://github.com/ARKye03/mini_kompiler.git
-  echo "Cloned the repo"
   cd mini_kompiler/
+  echo "Cloned the repo"
 else
   echo "Git is not installed. Please install git and try again."
 fi
